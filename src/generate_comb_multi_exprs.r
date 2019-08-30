@@ -34,6 +34,7 @@ candidate_gos <- unique(unlist(candidate_gos.list))
 candidate_gos <- candidate_gos[-which(candidate_gos %in% opt$go)] # remove opt$go from candidate_gos
 combs <- combn(candidate_gos, opt$comb)
 for(i in 1:ncol(combs)){
+  exprs <- read.table(paste0(opt$inpdir, '/exprs.log10.E1.', opt$go, '.txt'), header=T, row.names=1, sep='\t')
   gos <- combs[,i]
   for(go in gos){
     exprs.tmp <- read.table(paste0(opt$inpdir, '/exprs.log10.E1.', go, '.txt'), header=T, row.names=1, sep='\t')
