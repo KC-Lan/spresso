@@ -201,7 +201,7 @@ $ mkdir -p exprs_go_comb5_best22_del-Arl13b-Id2-Smad7
 $ cp -p exprs_go_comb5_del3/exprs.log10.E1.comb_del-Arl13b-Id2-Smad7.txt exprs_go_comb5_best22_del-Arl13b-Id2-Smad7/
 $ Rscript generate_comb_genes_exprs.r -e exprs_go_comb5_best22_del-Arl13b-Id2-Smad7/exprs.log10.E1.comb_del-Arl13b-Id2-Smad7.txt -k 1 -o exprs_go_comb5_best22_del-Arl13b-Id2-Smad7_del1
 $ run_som.sh exprs_go_comb5_best22_del-Arl13b-Id2-Smad7_del1 tiny
-$ run_compScore.sh result_som.exprs_go_comb5_best22_del-Arl13b-Id2-Smad7_del1 result_score_tables/exprs_go_comb5_best22_del-Arl13b-Id2-Smad7_del1.txt
+$ run_compScore.sh result_som.exprs_go_comb5_best22_del-Arl13b-Id2-Smad7_del1 result_score_tables/score_table_go_comb5_best22_del-Arl13b-Id2-Smad7_del1.txt
 ```
 **[Output]**
 - exprs_go_comb5_best22_del-Arl13b-Id2-Smad7
