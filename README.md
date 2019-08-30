@@ -234,6 +234,8 @@ See Mori et al. (to be submitted) for the detals of calculations of success rate
 $ Rscript plot_som_results.r --help 
 $ Rscript plot_som_results.r -t output/go2term.txt -s output/go2size.go.txt -q result_score_tables/score_table_go.txt -o output_go
 $ Rscript plot_som_results.r -t output/go2term.txt -s output/go2size.go_comb2.txt -q result_score_tables/score_table_go_comb2.txt -o output_go_comb2
+$ Rscript plot_som_results.r -t output/go2term.txt -s output/go2size.go_comb5.txt -q result_score_tables/score_table_go_comb5.txt -o output_go_comb5 #for Step 13-2
+$ Rscript plot_som_results.r -t output/go2term.txt -s output/go2size.go_comb5_del2.txt -q result_score_tables/score_table_go_comb5_del2.txt -o output_go_comb5_del2 #for Step 13-3
 ```
 **[Output]**
 - \<output directory\>/distributions.pdf
